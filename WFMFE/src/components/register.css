@@ -1,0 +1,124 @@
+.hero{
+    margin-top: 30px;
+    height: 710px;
+    display: flex;
+
+}
+.left{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 5px 15px #aaaaaa;  
+}
+.pwd{
+    width: 90%;
+    display: flex;
+}
+.pwd input{
+    width: 50%;
+    margin-right: 4px;
+}
+.pwd input:nth-child(2)
+{
+    margin-right: 0;
+}
+
+.leftUpper{
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    height: 90%;
+    border-radius: 20px 20px 0 0 ;
+    
+}
+.leftUpper h3{
+    font-size: 18px;
+    color: #35A5B3;
+}
+.left hr{
+    border: 1px solid #F2F1F2;
+}
+.left form input{
+    display: block;
+    width: 90%;
+    padding: 0 8px;
+   
+}
+
+.emailVerify{
+    position: relative;
+    width: 90%;
+    margin-bottom: 1%; 
+}
+.emailVerify input{
+    width: 90%;
+}
+.emailVerify button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 10%;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left form input[type="submit"]
+{
+    width: 150px;
+    background-color: #35A5B3;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+}
+
+.left form input[type="submit"]:hover{
+    background-color: #818ee4;
+}
+.left form input[type="submit"]:active{
+    box-shadow: none;
+}
+
+.left form input[type="checkbox"]
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.checkbox{
+    display: flex;
+}
+.left .register{
+    background-color: #F2F1F2;
+    padding: 15px 30px ;
+    width: 100%;
+    height: 10%;
+    border-radius: 0 0 20px 20px;
+       
+}
+.address{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.address input{
+    height: 10px;
+}
+.right{
+    width: 50%;
+    height: 100%;
+}
+.right .rightUpper img{
+    width: 100%;
+}
+.rightLower{
+    padding: 30px;
+    text-align: center;
+    margin-top: -20px;
+}
+.rightLower h2{
+    color: #35A5B3;
+}

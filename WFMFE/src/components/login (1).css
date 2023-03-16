@@ -1,0 +1,81 @@
+.loginhero{
+    margin-top: 70px;
+    height: 550px;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 5px 15px #aaaaaa;
+    /* background-color: red; */
+    
+}
+.leftUpper{
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    height: 90%;
+    border-radius: 20px 20px 0 0 ;
+    
+}
+.leftUpper h3{
+    font-size: 18px;
+    color: #35A5B3;
+}
+.left hr{
+    border: 1px solid #F2F1F2;
+}
+.left .welcome{
+    margin-bottom: 7%;
+}
+.left form input{
+    display: block;
+    width: 90%;
+    height: 45px;
+    margin-bottom: 3%;
+}
+.left form input[type="submit"]
+{
+    width: 150px;
+    background-color: #35A5B3;
+    color: white;
+}
+.left form input[type="submit"]:hover{
+    background-color: #818ee4;
+}
+.left form input[type="checkbox"]
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.checkbox{
+    display: flex;
+}
+.left .register{
+    background-color: #F2F1F2;
+    padding: 15px 30px ;
+    width: 100%;
+    height: 10%;
+    border-radius: 0 0 20px 20px;
+       
+}
+.right{
+    width: 50%;
+    height: 100%;
+   
+    /* background-color: aqua; */
+}
+.right .rightUpper img{
+    width: 100%;
+}
+.rightLower{
+    padding: 30px;
+    text-align: center;
+    margin-top: -20px;
+}
+.rightLower h2{
+    color: #35A5B3;
+
+}

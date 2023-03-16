@@ -1,0 +1,27 @@
+.addcar-container
+{
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: red;
+}
+
+.addcar
+{
+    width: 70%;
+    height: auto;
+}
+
+.addcar-form
+{
+    margin-top: 5px;
+
+}
+
+.addcar-form input
+{
+    width: 350px;
+    height: 40px;
+}

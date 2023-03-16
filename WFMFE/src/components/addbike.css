@@ -1,0 +1,27 @@
+.addbike-container
+{
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: red;
+}
+
+.addbike
+{
+    width: 70%;
+    height: auto;
+}
+
+.addbike-form
+{
+    margin-top: 5px;
+
+}
+
+.addbike-form input
+{
+    width: 350px;
+    height: 40px;
+}

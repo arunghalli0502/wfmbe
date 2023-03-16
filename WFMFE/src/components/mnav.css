@@ -1,0 +1,82 @@
+.mnav{
+    
+    margin: 0;
+    background-color: #343A40;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    z-index: 1;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img
+{
+   width: 120px;
+   
+  
+}
+.search{
+    height: 35px;
+    width: 300px;
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+}
+.search input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 85%;
+    border-style: none;
+    border-radius: 8px 0 0 8px;
+}
+.search .icon
+{
+cursor: pointer;
+position: absolute;
+top: 0;
+right: 0;
+width: 15%;
+height: 100%;
+border-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: aliceblue;
+border-radius: 0 8px 8px 0;
+
+}
+.search .icon i{
+    font-size: 22px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile .bell i{
+    color: white;
+    margin-right: 10px;
+    font-size: 22px;
+}
+.profile .avatar{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile .avatar img{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
